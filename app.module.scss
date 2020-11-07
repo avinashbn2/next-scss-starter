@@ -1,0 +1,9 @@
+@import './normalize.scss';
+$bgColor: aqua;
+.index {
+  background-color: $bgColor;
+  &Hello {
+    font-size: 48px;
+    text-align: center;
+  }
+}
