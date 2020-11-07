@@ -1,9 +1,13 @@
 @import './normalize.scss';
-$bgColor: aqua;
+$bgColor: salmon;
+$headerColor: #a0a0a0;
 .index {
-  background-color: $bgColor;
+  background-color: $headerColor;
   &Hello {
     font-size: 48px;
     text-align: center;
   }
+}
+body{
+    background-color: $bgColor
 }

@@ -49,7 +49,7 @@ module.exports = withCSS({
           },
         ],
       },
-
+	  // for loading fonts
       {
         test: /\.(ttf|woff|woff2)$/i,
         use: [
